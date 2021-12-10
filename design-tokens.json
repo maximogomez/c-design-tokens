@@ -428,6 +428,25 @@
         "value": "none",
         "type": "textDecoration"
       }
+    },
+    "base": {
+      "value": "4",
+      "description": "This is the base scale and changing this increment number here will proportionally affect all the other spacing rules",
+      "type": "spacing"
+    },
+    "component": {
+      "x1": {
+        "value": "$base",
+        "type": "spacing"
+      },
+      "x2": {
+        "value": "$base * 6",
+        "type": "spacing"
+      },
+      "x3": {
+        "value": "$base * 3",
+        "type": "spacing"
+      }
     }
   }
 }
