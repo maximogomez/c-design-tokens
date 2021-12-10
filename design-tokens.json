@@ -102,17 +102,57 @@
         "secondary": {
           "value": "rgba({brand.smoke.secondary}, 1)",
           "type": "color"
+        },
+        "tertiary": {
+          "value": "rgba({brand.smoke.tertiary}, 1)",
+          "type": "color"
+        },
+        "inverted": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "link": {
+          "value": "rgba({brand.grape.secondary}, 1)",
+          "type": "color"
         }
-      }
-    },
-    "EXTRA": {
-      "1": {
-        "value": "#f5f6f7",
-        "type": "color"
       },
-      "2": {
-        "value": "#ffffff",
-        "type": "color"
+      "background": {
+        "secondary": {
+          "value": "#f5f6f7",
+          "type": "color"
+        },
+        "primary": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "primary": {
+          "value": "rgba({brand.grape.quaternary}, 1)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "rgba({brand.rose.quaternary}, 1)",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "rgba({brand.tail.quaternary}, 1)",
+          "type": "color"
+        },
+        "quaternary": {
+          "value": "rgba({brand.skyblue.quaternary}, 1)",
+          "type": "color"
+        }
+      },
+      "cta": {
+        "primary": {
+          "value": "rgba({brand.grape.secondary}, 1)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "rgba({brand.grape.tertiary}, 1)",
+          "type": "color"
+        }
       }
     },
     "Elevation": {
